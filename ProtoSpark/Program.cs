@@ -6,7 +6,7 @@ namespace ProtoSpark
     {
         static void Main(string[] args)
         {
-            // creating an instance of Employee
+            // Creating an instance of Employee
             Employee employee = new Employee()
             {
                 Id = 1,
@@ -14,7 +14,7 @@ namespace ProtoSpark
                 Email = "johnsmith@gmail.com"
             };
 
-            //store bytes
+            // Store bytes
             byte[] employeeBytes;
 
             // Write to a stream

@@ -6,11 +6,11 @@
 - [Protobuf for CSharp](#protobuf-for-csharp)
   - [Simple `employee.proto`](#simple-employeeproto)
     - [Using `protoc`](#using-protoc)
-    - [Using `buf`](#using-buf)
     - [Using Visual Studio](#using-visual-studio)
   - [Initiated Spark submodule](#initiated-spark-submodule)
   - [Spark Connect](#spark-connect)
 
+<!-- /TOC -->
 <!-- /TOC -->
 
 ## Simple `employee.proto`
@@ -31,14 +31,22 @@ $PROTO_FILE="E:/git/protobuf-csharp/ProtoSpark/Proto/employee.proto"
 
 This will generate `E:\git\protobuf-csharp\ProtoSpark\Generated\Employee.cs`.
 
-### Using `buf`
-
-`TODO`
-
 ### Using Visual Studio
 
-`TODO`
+Add this to `.csproj`
 
+```
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+	<PackageReference Include="Grpc.Tools" Version="2.62.0" />
+  </ItemGroup>
+  <ItemGroup>
+	<Protobuf Include="**/*.proto" />
+  </ItemGroup>
+</Project>
+```
+
+Visual Studio will auto generate the POCOs.
 
 ## Initiated Spark submodule
 

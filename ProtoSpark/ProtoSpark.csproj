@@ -10,11 +10,12 @@
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.26.1" />
     <PackageReference Include="Google.Protobuf.Tools" Version="3.26.1" />
+	<PackageReference Include="Grpc.Tools" Version="2.62.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Generated\" />
     <Folder Include="Proto\" />
+	<Protobuf Include="**/*.proto" />
   </ItemGroup>
 
 </Project>
