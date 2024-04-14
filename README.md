@@ -1,7 +1,7 @@
 # Protobuf for CSharp
 
 
-<!-- TOC depthfrom:2 -->
+<!-- TOC -->
 
 - [Protobuf for CSharp](#protobuf-for-csharp)
   - [Simple `employee.proto`](#simple-employeeproto)
@@ -10,7 +10,6 @@
   - [Initiated Spark submodule](#initiated-spark-submodule)
   - [Spark Connect](#spark-connect)
 
-<!-- /TOC -->
 <!-- /TOC -->
 
 ## Simple `employee.proto`
