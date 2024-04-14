@@ -1,4 +1,5 @@
 ﻿using Google.Protobuf;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProtoSpark
 {
@@ -7,7 +8,7 @@ namespace ProtoSpark
         static void Main(string[] args)
         {
             // ==================================
-            // EMPLOYEE DEMO
+            // DEMO: EMPLOYEE
             // ==================================
             Employee employee = new Employee()
             {
@@ -39,6 +40,10 @@ namespace ProtoSpark
             {
                 var employeeFromFile = Employee.Parser.ParseFrom(output);
             }
+
+            // ==================================
+            // DEMO: SPARK CONNECT
+            // ==================================
         }
     }
 }
