@@ -11,6 +11,7 @@
   - [Spark Connect](#spark-connect)
 
 <!-- /TOC -->
+<!-- /TOC -->
 
 ## Simple `employee.proto`
 
@@ -50,7 +51,7 @@ Visual Studio will auto generate the POCOs.
 ## Initiated Spark submodule
 
 ```powershell
-git submodule add https://github.com/apache/spark
+git submodule update --init --recursive
 ```
 
 ## Spark Connect
