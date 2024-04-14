@@ -6,7 +6,9 @@ namespace ProtoSpark
     {
         static void Main(string[] args)
         {
-            // Creating an instance of Employee
+            // ==================================
+            // EMPLOYEE DEMO
+            // ==================================
             Employee employee = new Employee()
             {
                 Id = 1,
